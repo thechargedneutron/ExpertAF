@@ -8,11 +8,9 @@ Code implementation of CVPR 2025 paper 'ExpertAF: Expert Actionable Feedback fro
 
 ## Dataset and path
 
-We create the following weakly-supervised training and testing data for ExpertAF:
+We create the following weakly-supervised training and testing data for ExpertAF.
 
-(insert table here)
-
-Note that the data follows the format for LLaVA-style training (insert link).
+Note that the data follows the format for LLaVA-style training.
 
 The code also uses the following pre-extracted or trained features:
 
@@ -20,7 +18,7 @@ The code also uses the following pre-extracted or trained features:
 
 ## Installation and usage
 
-This code is based on LLaVA (insert link) (NeurIPS 2023). Please see installation instructions in (insert link) to setup the environment.
+This code is based on LLaVA (NeurIPS 2023). Please see installation instructions in the repo to setup the environment.
 
 ### Key architectural changes compared to LLaVA
 
@@ -43,4 +41,12 @@ sbatch -J name_of_the_run slurm_hp_with_mover.sh
 
 ## Cite
 
-
+```
+@inproceedings{expertaf,
+  title={ExpertAF: Expert actionable feedback from video},
+  author={Ashutosh, Kumar and Nagarajan, Tushar and Pavlakos, Georgios and Kitani, Kris and Grauman, Kristen},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={13582--13594},
+  year={2025}
+}
+```
