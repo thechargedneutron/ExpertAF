@@ -10,10 +10,9 @@ Code implementation of CVPR 2025 paper 'ExpertAF: Expert Actionable Feedback fro
 
 We create the following weakly-supervised training and testing data for ExpertAF.
 
+[Train dataset](https://drive.google.com/file/d/1Lu7goQ_kUXQdt5JxJmHhcXbmG7_SQmtj/view?usp=sharing), [Test dataset](https://drive.google.com/file/d/1OowwsS3SfSVsinMyUaK0aVr1hyaNYs35/view?usp=sharing), [Parsed expert commentary](https://drive.google.com/file/d/1BpgBRU7ZnOBaCuHGyYmT4kEhquNnxs6p/view?usp=sharing)
+
 Note that the data follows the format for LLaVA-style training.
-
-The code also uses the following pre-extracted or trained features:
-
 
 
 ## Installation and usage
